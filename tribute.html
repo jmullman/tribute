@@ -4,28 +4,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="./node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
+        <style>
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+                font-style: italic;
+            }
+            #author{
+                text-align: center;
+            }
+            .panel{
+                background-color: #ddd;            
+            }
+        </style>
     </head>
 <div "container-fluid">    
 <body>
 <div class="row">
-    <div class="page-header"><p></p></div>
+    <div class="navbar"><p></p></div>
 </div>
-<div class="panel row center-block">
+<div class="row">
     <div class="col-md-1"></div>
-    <div class="panel-body col-md-10">
+    <div class="panel main col-md-10 center-block">
         <h1>Herman Hesse</h1>
         <h2>Author, Poet, Painter</h2>
 
         <div class="row center-block">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-6 figure">
                 <p><img class="img-rounded" src="https://s-media-cache-ak0.pinimg.com/236x/62/e1/60/62e16009b3b27c0d43641b901b31f50d.jpg"></p>
-                <p id="caption">The author, an avid smoker, enjoying his vice</p>
+                <p class="figcaption">The author, an avid smoker, enjoying his vice</p>
             </div>
             <div class="col-md-3"></div>
         </div>
 
-        <p><h3>Here's a timeline of Hesse's life:</h3></p>
+        <p><h4>Here's a timeline of Hesse's life:</h3></p>
 
         <p>
             <ul>
@@ -41,11 +56,11 @@
         </p>
 
         <p>
-            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."</blockquote><p id="attribution">--Hermann Hesse</p>
+            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."<p id="attribution">--Hermann Hesse</p></blockquote>
         </p>
 
         <p>
-            <h3>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h3>
+            <h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h3>
         </p>
         
 
