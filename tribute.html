@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script type="text/javascript" src=".node_modules/jquery/jquery.js"></script>
+        <script type="text/javascript" src=".node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="./node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
         <style>
@@ -15,8 +17,8 @@
             #author{
                 text-align: center;
             }
-            .panel{
-                background-color: #ddd;            
+            .figure{
+                background-color: lightgreen;
             }
         </style>
     </head>
@@ -27,17 +29,28 @@
 </div>
 <div class="row">
     <div class="col-md-1"></div>
-    <div class="panel main col-md-10 center-block">
+    <div class="well col-md-10 center-block">
         <h1>Herman Hesse</h1>
         <h2>Author, Poet, Painter</h2>
 
-        <div class="row center-block">
+        <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 figure">
-                <p><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
-                <p class="figcaption">The author, an avid smoker, enjoying his vice</p>
-            </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 center-block">
+                        <p><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
+                    </div>
+                    <div class="col-md-4"></div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="figcaption">The author, an avid smoker, enjoying his vice</p>
+                        </div>
+                    </div>
+                </div>
             <div class="col-md-3"></div>
+            </div>
         </div>
 
         <p><h4>Here's a timeline of Hesse's life:</h3></p>
