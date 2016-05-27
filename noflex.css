@@ -1,0 +1,39 @@
+   body {
+        margin: 2%;
+        padding: 0px;
+    }
+    .base-container{
+        
+    }
+    .body-container{
+        
+        max-height: 90%;
+        max-width: 90%;
+        background: #ddd;
+        border-radius: 10px;
+    }
+    .center {
+        text-align: center;
+    }
+    
+    .italic {
+        font-style: italic;
+    }
+    
+    .figure {
+        background-color: lightgreen;
+        max-height: 380px;
+        max-width: 60%;
+    }
+    .fig-pic{
+
+    }
+
+    .red-border{
+        border-style: solid;
+        border-color: red; 
+    }
+    .blue-border{
+        border-style: solid;
+        border-color: blue;
+    }
