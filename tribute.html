@@ -1,72 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-       <!-- <script type="text/javascript" src=".node_modules/jquery/jquery.js"></script>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- <script type="text/javascript" src=".node_modules/jquery/jquery.js"></script>
         <script type="text/javascript" src=".node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="./node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
         -->
-        <style>
-            body{
-                margin: 0px;
-                padding: 0px;
-            }
-            .center{
-                text-align: center;
-            }
-            
-            .italic{
-                font-style: italic;
-            }
-            
-            .figure{
-                background-color: lightgreen;
-                display: flex;
-                display: -webkit-flex;
-                max-height: 400px;
-                max-width: 80%;
-                
-            }
-        </style>
-    </head>
+    <style>
+    body {
+        margin: 2%;
+        padding: 0px;
+    }
+    .base-container{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+        background: #fff;
+    }
+    .body-container{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: space-around;
+                justify-content: space-around;
+        -ms-flex-line-pack: flex-end;
+            -webkit-align-content: flex-end;
+                align-content: flex-end;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        max-height: 90%;
+        max-width: 90%;
+        background: #ddd;
+        border-radius: 10px;
+    }
+    .center {
+        text-align: center;
+    }
     
-   
-    <body>
-        <h1 class="center">Herman Hesse</h1>
-        <h2 class="center">Author, Poet, Painter</h2>
-            <div class="figure">
-                <p><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
-                <p>The author, an avid smoker, enjoying his vice</p>
-            </div>
+    .italic {
+        font-style: italic;
+    }
+    
+    .figure {
+        background-color: lightgreen;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column nowrap;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        max-height: 380px;
+        max-width: 60%;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .fig-pic{
 
-        <p><h4>Here's a timeline of Hesse's life:</h4></p>
+    }
 
-        <p>
-            <ul>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-                <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
-            </ul>
-        </p>
+    .red-border{
+        border-style: solid;
+        border-color: red; 
+    }
+    .blue-border{
+        border-style: solid;
+        border-color: blue;
+    }
 
-
-            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."<p class="italic">--Hermann Hesse</p></blockquote>
-
-
-        <p>
-            <h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h4>
-        </p>
-        
-
- 
-        <p class="center">Written and coded by <a href="https://freecodecamp.com/jmullman">Mitch Ullman</a></p>
-
+    </style>
+</head>
+<div class="base-container">
+<body>
+    <div class="body-container">
+    <h1 class="center red-border">Herman Hesse</h1>
+    <h2 class="center red-border">Author, Poet, Painter</h2>
+    <div class="figure blue-border">
+        <p class="red-border"><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
+        <p class="red-border">The author, an avid smoker, enjoying his vice</p>
+    </div>
+    <p>
+        <h4>Here's a timeline of Hesse's life:</h4></p>
+    <p>
+        <ul>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+            <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
+        </ul>
+    </p>
+    <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."
+        <p class="italic">--Hermann Hesse</p>
+    </blockquote>
+    <p>
+        <h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h4>
+    </p>
+    </div>
+    <p class="center">Written and coded by <a href="https://freecodecamp.com/jmullman">Mitch Ullman</a></p>
 </body>
-
+</div>
 </html>
