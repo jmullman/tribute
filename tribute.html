@@ -8,6 +8,10 @@
         <link href="./node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
         -->
         <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
             .center{
                 text-align: center;
             }
@@ -18,41 +22,25 @@
             
             .figure{
                 background-color: lightgreen;
+                display: flex;
+                display: -webkit-flex;
+                max-height: 400px;
+                max-width: 80%;
+                
             }
         </style>
     </head>
-<div "container-fluid">    
-<body>
-<div class="row">
-    <div class="navbar"><p></p></div>
-</div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="well col-md-10 center-block">
+    
+   
+    <body>
         <h1 class="center">Herman Hesse</h1>
         <h2 class="center">Author, Poet, Painter</h2>
-
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 figure">
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4 center-block">
-                        <p><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
-                    </div>
-                    <div class="col-md-4"></div>
-                    
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p>The author, an avid smoker, enjoying his vice</p>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-md-3"></div>
+            <div class="figure">
+                <p><img class="img-rounded" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></p>
+                <p>The author, an avid smoker, enjoying his vice</p>
             </div>
-        </div>
 
-        <p><h4>Here's a timeline of Hesse's life:</h3></p>
+        <p><h4>Here's a timeline of Hesse's life:</h4></p>
 
         <p>
             <ul>
@@ -67,24 +55,18 @@
             </ul>
         </p>
 
-        <p>
-            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."<p id="attribution">--Hermann Hesse</p></blockquote>
-        </p>
+
+            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."<p class="italic">--Hermann Hesse</p></blockquote>
+
 
         <p>
-            <h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h3>
+            <h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h4>
         </p>
         
 
-        
-    </div>
-    <div class="col-md-1"></div>
-</div>
-<div class="row center-block">
-    <div class="col-md-12">
+ 
         <p class="center">Written and coded by <a href="https://freecodecamp.com/jmullman">Mitch Ullman</a></p>
-    </div>
-</div>
+
 </body>
-</div>
+
 </html>
