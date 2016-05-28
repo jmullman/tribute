@@ -3,6 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
     <!-- <script type="text/javascript" src=".node_modules/jquery/jquery.js"></script>
         <script type="text/javascript" src=".node_modules/bootstrap/dist/js/bootstrap.js"></script>
         <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
@@ -10,18 +11,16 @@
         -->
     <link rel="stylesheet" href="./noflex.css">
 </head>
-<div class="base-container">
-
     <body>
         <div class="body-container">
-            <h1 class="center">Herman Hesse</h1>
-            <h2 class="center">Author, Poet, Painter</h2>
-            <div class="figure-container blue-border">
-                <div class="fig-table green-border">
-                    <span class="fig-item center">
-        <div class="red-border"><img class="fig-pic" src="./62e16009b3b27c0d43641b901b31f50d.jpg"></div>
-        <div class="fig-item">The author, an avid smoker, enjoying his vice</div>
-                    </span>
+            <div class="title center">Herman Hesse</div>
+            <div class="subtitle center">Author, Poet, Painter</div>
+            <div class="figure-container">
+                <div class="fig-table">
+                    <div class="fig-item">
+        <img class="fig-pic" src="./62e16009b3b27c0d43641b901b31f50d.jpg">
+        <div class="fig-item center">The author, an avid smoker, enjoying his vice</div>
+                    </div>
                 </div>
             </div>
             <p>
@@ -38,15 +37,16 @@
                     <li>#### - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in massa at tellus elementum imperdiet vel id magna. Nullam orci ante, ornare vel velit id.</li>
                 </ul>
             </p>
-            <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."
-                <p class="italic">--Hermann Hesse</p>
-            </blockquote>
+            <div class="quoted">
+                <blockquote>"Without words, without writing and without books there would be no history, there could be no concept of humanity."
+                </blockquote>
+                <span class="italic attribution">&mdash; Hermann Hesse</span>
+            </div>
             <p>
                 <h4 class="center">If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">Wikipedia entry</a>.</h4>
             </p>
+            <p>&nbsp;</p>
         </div>
         <p class="center">Written and coded by <a href="https://freecodecamp.com/jmullman">Mitch Ullman</a></p>
     </body>
-</div>
-
 </html>

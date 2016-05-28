@@ -1,14 +1,36 @@
    body {
-        margin: 2%;
+        margin: 2% 2% 2% 2%;
         padding: 0px;
+        font-size: 100%;
+        font-family: sans-serif;
     }
-    .base-container{
-        background: #fff;
+    .title{
+        font-size: 2.5em;
+        padding: 5px 0px 0px 0px;
     }
+
+    .subtitle{
+        font-size: 1.5em;
+        padding: 0px 0px 5px 0px;
+    }
+
+    .quoted{
+        padding: 5px 0px 5px 0px;
+        font-size: .90em;
+        color: #444;
+    }
+
+    .attribution{
+        margin: 0px 0px 0px 60px;
+    }
+
     .body-container{
         display: block;
-        max-height: 90%;
-        max-width: 90%;
+        position: relative;
+        left: 0%;
+        right: 2%;
+        top: 2%;
+        bottom: 2%;
         background: #ddd;
         border-radius: 10px;
     }
@@ -23,26 +45,26 @@
     .figure-container {
         background: #fff;
         max-height: 400px;
-        max-width:  285px;
+        max-width:  270px;
         display: block;
-        margin: 0px;
+        margin: auto;
         padding: 0px;
         border-radius: 10px;
     }
     .fig-table{
         display: table;
-        margin: 0px;
-        padding: 0px;
+        margin: auto;
+        padding: 10px 0px 5px 0px;
     }
     .fig-pic{
         display: table-cell;
         border-radius: 10px;
-        margin: 0px;
-        padding: 0px 0px 0px 0px;
+        margin: auto;
+
     }
     .fig-item{
         display: table-cell;
-        margin: 0px;
+        margin: auto;
         padding: 0px 20px 0px 20px;
     }
 
