@@ -3,10 +3,10 @@
         padding: 0px;
     }
     .base-container{
-        
+        background: #fff;
     }
     .body-container{
-        
+        display: block;
         max-height: 90%;
         max-width: 90%;
         background: #ddd;
@@ -20,13 +20,30 @@
         font-style: italic;
     }
     
-    .figure {
-        background-color: lightgreen;
-        max-height: 380px;
-        max-width: 60%;
+    .figure-container {
+        background: #fff;
+        max-height: 400px;
+        max-width:  285px;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 10px;
+    }
+    .fig-table{
+        display: table;
+        margin: 0px;
+        padding: 0px;
     }
     .fig-pic{
-
+        display: table-cell;
+        border-radius: 10px;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .fig-item{
+        display: table-cell;
+        margin: 0px;
+        padding: 0px 20px 0px 20px;
     }
 
     .red-border{
@@ -36,4 +53,8 @@
     .blue-border{
         border-style: solid;
         border-color: blue;
+    }
+    .green-border{
+        border-style: solid;
+        border-color: green;
     }
